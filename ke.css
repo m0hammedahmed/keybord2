@@ -1,0 +1,150 @@
+/* Resetting styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Use the same font throughout */
+    font-weight: 400; /* Use a standard font weight */
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    color: white;
+    background-image: url(/imgs/pexels-stein-egil-liland-3374210.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.output{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 90px;
+    position: absolute;
+    top: 40px;
+}
+.output input{
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.555);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    margin: 20px;
+    padding: 20px;
+    border-color: rgb(226, 24, 45); 
+    box-shadow: 0 0 10px rgb(219, 16, 16); 
+
+}
+.output input:focus{
+    outline: none;
+}
+
+
+.container .box {
+    border: 1px solid ;
+    border-color: rgb(226, 24, 45); 
+box-shadow: 0 0 10px rgb(219, 16, 16); 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom: 20px;
+    position: absolute;
+}
+
+.container .box > div {
+    display: flex;
+}
+
+.container .box > div .key {
+    width: 80px;
+    height: 70px;
+    border: 1px solid ;
+    border-color: rgba(180, 44, 58, 0.681); 
+    box-shadow: 0 0 10px rgba(178, 31, 31, 0.599); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 7px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 44px;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.container .box > div .key:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(180, 44, 58, 0.894); 
+    box-shadow: 0 0 10px rgb(178, 31, 31); 
+    /* scale: 2px; */
+}
+.container .box > div .key span {
+    font-size: 23px;
+    position: absolute;
+    right: 10%;
+    bottom: 16%;
+}
+.fiv_row{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.fiv_row .key{
+    width: 600px;
+    height: 70px;
+    border: 1px solid ;
+    border-color: rgba(180, 44, 58, 0.681); 
+    box-shadow: 0 0 10px rgba(178, 31, 31, 0.599); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 7px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 44px;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    position: relative;
+}
